@@ -3,6 +3,7 @@
 ## 🎯 Overview  
 
 This project focused on building an **AI-assisted skill mapping and diagnostic system** for corporate clients aiming to better understand and measure their workforce capabilities.  
+
 The solution combines **Vertex AI**, **semantic embeddings**, and **Bloom’s taxonomy** to automatically enhance skill definitions, map employee roles, and generate self-assessment surveys for large-scale evaluation.  
 
 The system bridges **HR domain knowledge** with **machine learning and NLP techniques**, creating a scalable pipeline for workforce analytics and skill-based learning strategies.  
