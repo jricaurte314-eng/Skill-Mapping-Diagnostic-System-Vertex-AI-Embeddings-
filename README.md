@@ -81,40 +81,6 @@ The system bridges **HR domain knowledge** with **machine learning and NLP techn
 | Survey Automation | Gemini API · Likert Generation Templates |
 
 ---
-
-## 📁 Folder Structure  
-
-```markdown
-skill-mapping-diagnostic-system/
-│
-├── 📘 README.md                         # Project documentation
-│
-├── 📂 notebooks/
-│   ├── 01_skill_definition.ipynb        # Vertex AI calls and Bloom taxonomy generation
-│   ├── 02_embeddings_generation.ipynb   # Embedding creation and validation
-│   ├── 03_similarity_matching.ipynb     # Cosine similarity and related skill suggestions
-│   ├── 04_employee_assignment.ipynb     # Role-based skill allocation
-│   ├── 05_survey_generation.ipynb       # Likert question automation
-│
-├── 📂 data/
-│   ├── client_skills.csv                # Raw client skill data
-│   ├── enhanced_skills.csv              # Vertex-enhanced skill definitions
-│   ├── embeddings_matrix.npy            # Stored embeddings
-│   ├── employee_data.xlsx               # Sample employee inputs
-│   └── survey_templates.yaml            # Dynamic survey question templates
-│
-├── 📂 src/
-│   ├── embeddings_utils.py              # Embedding generation and cosine similarity
-│   ├── bloom_taxonomy.py                # Bloom taxonomy logic
-│   ├── survey_generator.py              # Automated survey builder
-│   ├── data_upload_handler.py           # CSV/Excel ingestion logic
-│   └── yaml_utils.py                    # YAML parsing and question templates
-│
-├── 📂 results/
-│   ├── skill_match_examples.csv         # Suggested skill alignments
-│   ├── survey_preview.png               # Example of generated survey
-│   └── taxonomy_output.yaml             # Sample taxonomy output
-│
 └── 📂 docs/
     ├── process_diagram.png              # Visual pipeline overview
     ├── stakeholder_feedback.md          # Iterations with client input
