@@ -79,9 +79,3 @@ The system bridges **HR domain knowledge** with **machine learning and NLP techn
 | Similarity Analysis | Cosine Similarity · Semantic Embeddings |
 | Data Handling | CSV Upload · Excel Integration · YAML Config |
 | Survey Automation | Gemini API · Likert Generation Templates |
-
----
-└── 📂 docs/
-    ├── process_diagram.png              # Visual pipeline overview
-    ├── stakeholder_feedback.md          # Iterations with client input
-    └── lessons_learned.md
